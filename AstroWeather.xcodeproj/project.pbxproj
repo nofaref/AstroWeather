@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C966C6DA24081B9D00A96F9E /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966C6D924081B9D00A96F9E /* HTTPClient.swift */; };
+		C97D99002406809E0002DD4C /* AutoCompleteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97D98FF2406809E0002DD4C /* AutoCompleteModel.swift */; };
+		C97D99042406BE230002DD4C /* WeeklyForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97D99032406BE230002DD4C /* WeeklyForecastModel.swift */; };
+		C97D99082407FF3E0002DD4C /* TwelveHoursForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97D99072407FF3E0002DD4C /* TwelveHoursForecast.swift */; };
 		C9C9614C23FAD77400A135F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C9614B23FAD77400A135F1 /* AppDelegate.swift */; };
 		C9C9614E23FAD77400A135F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C9614D23FAD77400A135F1 /* SceneDelegate.swift */; };
 		C9C9615023FAD77400A135F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C9614F23FAD77400A135F1 /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C966C6D924081B9D00A96F9E /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		C97D98FF2406809E0002DD4C /* AutoCompleteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteModel.swift; sourceTree = "<group>"; };
+		C97D99032406BE230002DD4C /* WeeklyForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyForecastModel.swift; sourceTree = "<group>"; };
+		C97D99072407FF3E0002DD4C /* TwelveHoursForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwelveHoursForecast.swift; sourceTree = "<group>"; };
 		C9C9614823FAD77400A135F1 /* AstroWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C9614B23FAD77400A135F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9C9614D23FAD77400A135F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +107,7 @@
 		C9C9614A23FAD77400A135F1 /* AstroWeather */ = {
 			isa = PBXGroup;
 			children = (
+				C9C9617B23FBE62700A135F1 /* Models */,
 				C9C9614B23FAD77400A135F1 /* AppDelegate.swift */,
 				C9C9614D23FAD77400A135F1 /* SceneDelegate.swift */,
 				C9C9614F23FAD77400A135F1 /* ViewController.swift */,
@@ -106,6 +115,7 @@
 				C9C9615423FAD77700A135F1 /* Assets.xcassets */,
 				C9C9615623FAD77700A135F1 /* LaunchScreen.storyboard */,
 				C9C9615923FAD77700A135F1 /* Info.plist */,
+				C966C6D924081B9D00A96F9E /* HTTPClient.swift */,
 			);
 			path = AstroWeather;
 			sourceTree = "<group>";
@@ -126,6 +136,16 @@
 				C9C9616F23FAD77700A135F1 /* Info.plist */,
 			);
 			path = AstroWeatherUITests;
+			sourceTree = "<group>";
+		};
+		C9C9617B23FBE62700A135F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C97D98FF2406809E0002DD4C /* AutoCompleteModel.swift */,
+				C97D99032406BE230002DD4C /* WeeklyForecastModel.swift */,
+				C97D99072407FF3E0002DD4C /* TwelveHoursForecast.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C97D99042406BE230002DD4C /* WeeklyForecastModel.swift in Sources */,
 				C9C9615023FAD77400A135F1 /* ViewController.swift in Sources */,
+				C97D99002406809E0002DD4C /* AutoCompleteModel.swift in Sources */,
+				C966C6DA24081B9D00A96F9E /* HTTPClient.swift in Sources */,
 				C9C9614C23FAD77400A135F1 /* AppDelegate.swift in Sources */,
+				C97D99082407FF3E0002DD4C /* TwelveHoursForecast.swift in Sources */,
 				C9C9614E23FAD77400A135F1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
